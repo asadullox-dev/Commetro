@@ -1,0 +1,267 @@
+.navbar__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.navbar1{
+    text-decoration: none;
+    color: #4A99D3;
+}
+.navbar__link{
+    color: #4A99D3;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar__link:hover{
+    color: rgb(147, 201, 248);
+    transition: all 1s ease;
+}
+.navbar__main{
+    gap: 40px;
+    display: flex;
+    margin-left: 900px;
+}
+.header__list{
+    list-style: none;
+}
+.header__h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
+}
+.header__h2{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
+    color: rgb(249, 51, 84);
+}
+.header__2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    margin-top: 200px;
+    position: relative;
+}
+.header__img{
+    position: absolute;
+    top: -100px;
+    right: 350px;
+}
+.header__img1{
+    position: absolute;
+    top: -170px;
+    right: 150px;
+}
+.header__btn{
+    font-size: 15px;
+    width: 180px;
+    height: 60px;
+    top: 568px;
+    left: 109px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #4A99D3;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+.header__btn:hover{
+    background-color: white;
+    color: #4A99D3;
+    border: 0.5px solid #4A99D3;
+    transition: all 1s ease;
+    transform: scale(1.1);
+}
+
+.header__btn1{
+    font-size: 18px;
+    width: 180px;
+    height: 60px;
+    top: 568px;
+    left: 109px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #4A99D3;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.header__btn1:hover{
+    background-color: white;
+    color: #4A99D3;
+    border: 0.5px solid #4A99D3;
+    transition: all 1s ease;
+    transform: scale(1.1);
+}
+
+.service{
+    margin-top: 200px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service__h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+    
+}
+.service__item{
+    padding: 30px;
+    width: 380px;
+    height: 425px;
+    top: 1136px;
+    left: 120px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    box-shadow: 10px 0px 10px 2px  rgb(227, 244, 251);
+    border: 0.5px solid rgb(244, 243, 243);
+
+}
+.service__header1{
+    margin-top: 100px;
+}
+.service__title{
+    margin-top: 30px;
+}
+.service__btn{
+    margin-top: 20px;
+    background: none;
+    border: none;
+    color: #4A99D3;
+}
+.service__btn:hover{
+    color: rgba(29, 88, 225, 0.578);
+    transition: all 1s ease;
+    transform: scale(1.1);
+}
+.section{
+    display: block;
+    height: 300px;
+    padding: 50px;
+    background-color: #4A99D31A;;
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section__list{
+    text-align: center;
+    gap: 50px;
+    display: flex;
+    list-style: none;
+}
+.section__item{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.app{
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.app__list{
+   display: flex;
+   gap: 100px;
+   list-style: none;
+}
+.app__item1{
+    margin-top: 180px;
+}
+.app__title{
+    font-size: 25px;
+    opacity: 50%;
+}
+.download{
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.download__list{
+    list-style: none;
+}
+.download__img{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.download__img2{
+    position: absolute;
+    top: 300px;
+    left: 450px;
+}
+.download__img1{
+    position: absolute;
+    top: 260px;
+    left: 240px;
+}
+.download__btn{
+    margin-top: 30px;
+    width: 165.45px;
+    height: 52.17px;
+    top: 3.91px;
+    left: 3.65px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 100%;
+}
+.download__btn:hover{
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+    transition: all 1s ease;
+    transform: scale(1.1);
+}
+.download__title{
+    opacity: 50%;
+}
+.download__item1{
+    position: absolute;
+    top: 370px;
+    left: 800px;
+}
+.footer{
+    display: block;
+    margin-top: 1000px;
+    background-color: #4A99D3;
+    height: 300px;
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer__list{
+    gap: 50px;
+    list-style: none;
+    display: flex;
+}
+.footer1{
+    text-decoration: none;
+    color: white;
+}
+.footer__link{
+    text-decoration: solid;
+    color: white;
+}
+.footer__link:hover{
+    opacity: 50%;
+    transition: all 1s ease;
+}
+.footer__title{
+    color: white;
+    font-size: 25px;
+}
+.footer__logo{
+    margin-top: 15px;
+}
